@@ -87,6 +87,9 @@
     .info_title h3 {
         font-size: 21px;
     }
+    .info-single_item ul .title {
+        display: block;
+    }
     .full_width_personal_information_section {
         padding-top: 8rem;
     }
@@ -98,6 +101,20 @@
     }
     .container {
         width: 95%;
+    }
+    .single_infR p {
+        padding-left: 0;
+    }
+    .single_infR p::before {
+        display: none;
+    }
+    .education_area_header h3,
+    .my_skil_header_text h4 {
+        font-size: 21px;
+        text-align: left;
+    }
+    .edu_items h5 {
+        font-size: 17px;
     }
 }
 
