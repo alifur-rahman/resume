@@ -25,6 +25,10 @@
     .color-changer-area {
         top: 30%;
     }
+    /* about css  */
+    .information_left_area {
+        margin-bottom: 5rem;
+    }
 }
 
 @media all and (max-width:767px) {
@@ -64,6 +68,26 @@
     .left_color_area {
         left: -100%;
         top: -55%;
+    }
+    /* about page  */
+    .information_image_area {
+        display: block;
+    }
+    .full_width_about_header_section {
+        background: #252525;
+        border-bottom: 1px solid #333;
+        padding: 1.5rem 0;
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+    .about_header_text h2 {
+        font-size: 26px;
+    }
+    .title_bg {
+        display: none;
+    }
+    .container {
+        width: 95%;
     }
 }
 

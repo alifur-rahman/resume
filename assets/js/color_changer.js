@@ -13,6 +13,7 @@ $(document).ready(function() {
             'left': '0'
         }, 500);
     });
+
     //purple
     $("#purple").click(function() {
         $(".add-color").css({

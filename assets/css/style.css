@@ -31,6 +31,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #111;
+    overflow-x: hidden;
 }
 
 h1,
@@ -90,6 +91,7 @@ button
     top: 0;
     left: 40px;
     transition: .4s;
+    color: #fff;
 }
 
 .btn_css:hover span {
@@ -102,11 +104,12 @@ button
     right: 20%;
     opacity: 0;
     transition: .4s;
+    color: #fff;
 }
 
 .btn_css:hover i {
     opacity: 1;
-    right: 19px;
+    right: 25px;
 }
 
 :root {
@@ -117,11 +120,6 @@ button
 /* --Header area css-- */
 
 .full_width_header_section {
-    width: 100%;
-    height: 100%;
-}
-
-.container {
     width: 100%;
     height: 100%;
 }
@@ -264,8 +262,8 @@ button
     font-size: 2.8rem;
     position: fixed;
     z-index: 999;
-    top: 20px;
-    right: 37px;
+    top: 11px;
+    right: 22px;
     display: inline-block;
     border: 1px solid gray;
     height: 4rem;
@@ -298,7 +296,7 @@ button
     display: block;
     margin: 10px 0;
     padding: 10px 20px;
-    font-size: 23px;
+    font-size: 21px;
     text-transform: uppercase;
     border-bottom: 1px dashed gray;
     margin-top: 15px;
@@ -337,6 +335,8 @@ button
     color: #fff;
     width: 100%;
     text-align: center;
+    padding: 8rem 0;
+    transition: .5s;
 }
 
 .about_header_text {
@@ -349,7 +349,6 @@ button
     color: #fff;
     text-transform: uppercase;
     margin: 0;
-    padding: 80px 0;
 }
 
 .span_clr {
@@ -404,6 +403,11 @@ button
     font-family: sans-serif;
 }
 
+.info_title h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .info_item {
     display: flex;
     justify-content: left;
@@ -414,6 +418,14 @@ button
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
+}
+
+.info-single_item ul li a {
+    color: #fff;
+}
+
+.info-single_item ul li a:hover {
+    text-decoration: underline;
 }
 
 .info-single_item ul .title {
@@ -490,6 +502,20 @@ button
     flex: 0 0 50%;
 }
 
+.information_image_area {
+    padding-bottom: 2rem;
+    display: none;
+}
+
+.informatin_image {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: #000 url(../images/105.jpg) no-repeat scroll 0 0 / cover;
+    margin: auto;
+    border: 4px solid #252525;
+}
+
 
 /*==full width my skill progress==*/
 
@@ -542,7 +568,7 @@ button
 .education_area_header {
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 26px;
+    padding-bottom: 50px;
 }
 
 .education_area_header h3 {
