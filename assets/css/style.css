@@ -204,7 +204,7 @@ button
 .header_menu_area ul li .styleCss {
     text-decoration: none;
     text-transform: uppercase;
-    padding: 16px 20px;
+    padding: 14px 20px;
     background: #FFB400;
     border-radius: 30px;
     padding-right: 30px;
@@ -230,11 +230,14 @@ button
     right: 0;
     font-size: 20px;
     background: #4d4d4d;
-    padding: 13px 13px;
     border-radius: 30px;
     flex: 0 0 20%;
     color: #fff;
     transition: .4s;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
 }
 
 .image_area {
