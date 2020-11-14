@@ -22,6 +22,9 @@
     .responsive_icon .show-nav {
         display: block;
     }
+    .color-changer-area {
+        top: 30%;
+    }
 }
 
 @media all and (max-width:767px) {
