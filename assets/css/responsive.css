@@ -1,3 +1,9 @@
+@media all and (min-width:991px) {
+    .responsive_icon {
+        display: none !important;
+    }
+}
+
 @media all and (max-width:991px) {
     .image_area {
         width: 270px;
@@ -15,6 +21,9 @@
         flex: 0 0 65%;
         margin-right: 7rem;
         padding-top: 25rem;
+    }
+    .responsive_icon {
+        display: block;
     }
     .responsive-menu {
         display: block;
