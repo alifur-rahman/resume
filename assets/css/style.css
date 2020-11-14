@@ -207,7 +207,7 @@ button
 .header_menu_area ul li .styleCss {
     text-decoration: none;
     text-transform: uppercase;
-    padding: 13px 20px;
+    padding: 14px 20px;
     background: #FFB400;
     border-radius: 30px;
     padding-right: 30px;
@@ -216,8 +216,9 @@ button
     opacity: 0;
 }
 
+.header_menu_area ul li .active,
 .header_menu_area ul li:hover .styleCss,
-.header_menu_area ul li:hover .fa {
+.header_menu_area ul li:hover i {
     background: #FFB400;
     opacity: 1
 }
@@ -226,7 +227,7 @@ button
     padding-right: 60px;
 }
 
-.header_menu_area .fa {
+.header_menu_area ul li a i {
     position: absolute;
     top: -12px;
     right: 0;
@@ -236,6 +237,7 @@ button
     border-radius: 30px;
     flex: 0 0 20%;
     color: #fff;
+    transition: .4s;
 }
 
 .image_area {
@@ -318,3 +320,6 @@ button
     color: #FFB400;
     border-bottom: 1px dotted gray;
 }
+
+
+/* about area css  */
