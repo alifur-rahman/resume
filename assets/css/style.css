@@ -278,7 +278,7 @@ button
 /* --responsive icon Css-- */
 
 .responsive-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -100%;
     z-index: 900;

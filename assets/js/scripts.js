@@ -14,6 +14,7 @@ $(document).ready(function() {
         $('.close-nav').css({
             'display': 'block',
         });
+        return false;
 
     });
 
@@ -28,6 +29,8 @@ $(document).ready(function() {
         $('.show-nav').css({
             'display': 'block',
         });
+
+        return false;
 
     });
 
