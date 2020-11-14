@@ -79,6 +79,16 @@
         padding: 1.5rem 0;
         text-align: left;
         margin-bottom: 1.5rem;
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+    }
+    .info_title h3 {
+        font-size: 21px;
+    }
+    .full_width_personal_information_section {
+        padding-top: 8rem;
     }
     .about_header_text h2 {
         font-size: 26px;
