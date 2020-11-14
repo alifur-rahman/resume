@@ -52,6 +52,36 @@ a {
     text-decoration: none;
 }
 
+.btn_css {
+    font-weight: 500;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+    background: #FFB400;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    position: relative;
+}
+
+.btn_css:hover .fa {
+    visibility: visible;
+    margin-left: 10px;
+}
+
+.section_separator {
+    padding: 70px 0;
+}
+
+hr.separator {
+    border-top: 1px solid #252525;
+    margin: auto;
+    max-width: 40%;
+}
+
 
 /* --Header area css-- */
 
@@ -191,11 +221,12 @@ button
 .header_menu_area {
     text-align: right;
     position: fixed;
-    /* top: 15%; */
+    top: 15%;
     right: 0;
     display: flex;
     align-items: center;
     height: calc(100vh - 200px);
+    z-index: 999;
 }
 
 .header_menu_area ul li {
@@ -207,7 +238,7 @@ button
 .header_menu_area ul li .styleCss {
     text-decoration: none;
     text-transform: uppercase;
-    padding: 14px 20px;
+    padding: 16px 20px;
     background: #FFB400;
     border-radius: 30px;
     padding-right: 30px;
@@ -322,4 +353,212 @@ button
 }
 
 
+/*===============================*/
+
+
 /* about area css  */
+
+
+/*===============================*/
+
+
+/*==full width about header==*/
+
+.full_width_about_header_section {
+    background: #111111;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.about_header_text {
+    position: relative;
+}
+
+.about_header_text h2 {
+    font-size: 56px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 80px 0;
+}
+
+.span_clr {
+    color: #ffb400;
+}
+
+.title_bg {
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.07);
+}
+
+
+/*==full width personal_information==*/
+
+.full_width_personal_information_section {
+    background: #111111;
+    color: #fff;
+    padding-bottom: 1px;
+    position: relative;
+}
+
+.personal_information_area {
+    display: flex;
+}
+
+
+/*information left css */
+
+.information_left_area {
+    flex: 0 0 50%;
+}
+
+.info_title {
+    width: 100%;
+    padding-bottom: 22px;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.info_item {
+    display: flex;
+    justify-content: left;
+}
+
+.info-single_item ul li {
+    padding-bottom: 26px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.info-single_item ul .title {
+    opacity: .7;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+
+/*information Right css */
+
+.information_right_area {
+    flex: 0 0 50%;
+}
+
+.infR_flex_area {
+    display: flex;
+    justify-content: left;
+}
+
+.single_infR.with_margin {
+    margin-bottom: 20px;
+}
+
+.single_infR {
+    flex: 0 0 50%;
+    padding: 20px 30px 25px 40px;
+    border-radius: 5px;
+    border: 1px solid #252525;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.single_infR h4 {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffb400;
+    position: relative;
+}
+
+.single_infR h4::after {
+    content: '+';
+    position: absolute;
+    right: -24px;
+    font-size: 33px;
+    font-weight: 300;
+    top: 2px;
+}
+
+.single_infR p {
+    padding-left: 45px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.single_infR p:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 30px;
+    height: 1px;
+    background: #777;
+}
+
+.info-single_item {
+    flex: 0 0 50%;
+}
+
+.info-single_item {
+    flex: 0 0 50%;
+}
+
+
+/*==full width my skill progress==*/
+
+.full_width_my_skill_progress {
+    background: #111111;
+    color: #fff;
+}
+
+.my_skil_header_text {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.my_skil_header_text h4 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.skill_progress_area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single_progress {
+    flex: 0 0 25%;
+    text-align: center;
+}
+
+.single_progress.with_padding {
+    padding-bottom: 40px;
+}
+
+.single_progress h2 {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
