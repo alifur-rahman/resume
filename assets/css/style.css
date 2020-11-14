@@ -52,6 +52,21 @@ a {
     text-decoration: none;
 }
 
+.section_separator {
+    padding: 70px 0;
+}
+
+hr.separator {
+    border-top: 1px solid #252525;
+    margin: auto;
+    max-width: 40%;
+}
+
+
+/*
+button 
+*/
+
 .btn_css {
     font-weight: 500;
     line-height: 46px;
@@ -63,23 +78,39 @@ a {
     background: #FFB400;
     border: none;
     border-radius: 30px;
-    padding: 12px 30px;
+    padding: 0px 100px;
     position: relative;
+    height: 46px;
+    display: inline-block;
 }
 
-.btn_css:hover .fa {
-    visibility: visible;
-    margin-left: 10px;
+.btn_css span {
+    display: block ruby;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    transition: .4s;
 }
 
-.section_separator {
-    padding: 70px 0;
+.btn_css:hover span {
+    left: 25px;
 }
 
-hr.separator {
-    border-top: 1px solid #252525;
-    margin: auto;
-    max-width: 40%;
+.btn_css i {
+    position: absolute;
+    top: 31%;
+    right: 20%;
+    opacity: 0;
+    transition: .4s;
+}
+
+.btn_css:hover i {
+    opacity: 1;
+    right: 19px;
+}
+
+:root {
+    --hover-color: blue;
 }
 
 
@@ -153,69 +184,6 @@ hr.separator {
     margin: 10px 0 23px;
     font-size: 16px;
     line-height: 32px;
-}
-
-
-/*
-button 
-*/
-
-.flex_area .btn_css {
-    font-weight: 500;
-    line-height: 46px;
-    font-size: 15px;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .5px;
-    background: #FFB400;
-    border: none;
-    border-radius: 30px;
-    padding: 0px 100px;
-    position: relative;
-    height: 46px;
-    display: inline-block;
-}
-
-.btn_css span {
-    display: block ruby;
-    position: absolute;
-    top: 0;
-    left: 40px;
-    transition: .4s;
-}
-
-.btn_css:hover span {
-    left: 25px;
-}
-
-.header_button i {
-    position: absolute;
-    top: 31%;
-    right: 20%;
-    opacity: 0;
-    transition: .4s;
-}
-
-.btn_css:hover i {
-    opacity: 1;
-    right: 19px;
-}
-
-.header_button .btn_css:hover .fa {
-    visibility: visible;
-    margin-left: 10px;
-    /* transform: translateX(15px); */
-}
-
-.header_button {
-    position: relative;
-    display: inline-block;
-}
-
-.header_button .fa {
-    font-size: 18px;
-    visibility: hidden;
 }
 
 .header_menu_area {
@@ -561,4 +529,98 @@ button
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
+}
+
+
+/*==Education & Experience css==*/
+
+.full_width_education_section {
+    background: #111111;
+    color: #fff;
+}
+
+.education_area_header {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 26px;
+}
+
+.education_area_header h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.edu_items ul li {
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 20px 0 60px;
+    margin: 0 0 50px;
+}
+
+.edu_items .icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    text-align: center;
+    z-index: 1;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #FFB400;
+}
+
+.edu_time {
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 10px;
+    display: inline-block;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #252525;
+    opacity: .8;
+}
+
+.edu_items h5 {
+    text-align: ;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 7px 0 10px;
+    font-weight: 500;
+}
+
+.edu_items .place {
+    opacity: .8;
+    font-weight: 600;
+    font-size: 13px;
+    position: relative;
+    padding-left: 26px;
+}
+
+.edu_items .place::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+    left: 7px;
+    top: 9px;
+    opacity: .8;
+}
+
+.edu_items p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.edu_items p::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border-left: 1px solid #333;
+    height: 100px;
 }
