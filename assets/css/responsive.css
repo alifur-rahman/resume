@@ -38,6 +38,9 @@
     .information_left_area {
         margin-bottom: 5rem;
     }
+    .portfolio_area {
+        column-count: 2;
+    }
 }
 
 @media all and (max-width:767px) {
@@ -61,6 +64,9 @@
     }
     .header_text_area h3 {
         font-size: 20px;
+    }
+    .single_portfolio ul li a img {
+        height: 160px;
     }
 }
 
@@ -89,7 +95,7 @@
         text-align: left;
         margin-bottom: 1.5rem;
         position: fixed;
-        z-index: 99;
+        z-index: 9999;
         top: 0;
         left: 0;
     }
@@ -124,6 +130,18 @@
     }
     .edu_items h5 {
         font-size: 17px;
+    }
+    .Main_portfolio_area {
+        padding-top: 9rem;
+    }
+    .portfolio_area {
+        column-count: 1;
+    }
+    .single_portfolio {
+        margin-bottom: 2.5rem;
+    }
+    .single_portfolio ul li a img {
+        height: 225px;
     }
 }
 
