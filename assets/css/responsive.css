@@ -24,6 +24,8 @@
     }
     .responsive_icon {
         display: block;
+        z-index: 99999;
+        position: relative;
     }
     .responsive-menu {
         display: block;
