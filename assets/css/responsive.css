@@ -150,6 +150,10 @@
     .main_contact_area {
         padding-top: 8rem;
     }
+    .blog_post_area {
+        padding-top: 10rem;
+        transition: .4s;
+    }
 }
 
 @media all and (max-width:430px) {

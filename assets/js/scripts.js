@@ -40,7 +40,6 @@ $(document).ready(function() {
         $('.portfolio_area').sliphover({
             backgroundColor: '#FFB400',
             verticalMiddle: false,
-            duration: 500,
 
         });
     })
