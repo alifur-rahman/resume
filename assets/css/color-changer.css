@@ -1,9 +1,18 @@
 /*========================*/
+
+
 /*COLOUR CHANGER CSS*/
+
+
 /*=======================*/
-@font-face{
+
+@font-face {
     font-family: Alifur;
     src: url(../fonts/Battalion.ttf);
+}
+
+:root {
+    --addColor: #FFB400;
 }
 
 .color-changer-area {
@@ -12,14 +21,14 @@
     position: fixed;
     width: 100%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     align-items: center;
     z-index: 9999;
-    max-width:8%;
+    max-width: 8%;
 }
 
 .open-icon {
@@ -34,11 +43,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-transition: .5s;
     transition: .5s;
     cursor: pointer;
@@ -53,37 +62,39 @@
     background: #888;
     color: #c6a76d;
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
 }
+
 
 /*
 CLOSE Icon
 */
+
 .close-icon {
-	width: 100%;
-	background: #fff;
-	max-width: 250px;
-	position: fixed;
-	text-align: center;
-	left: 0;
-	display: none;
-	background: #131313;
-	border-radius: 6px;
+    width: 100%;
+    background: #fff;
+    max-width: 250px;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    display: none;
+    background: #131313;
+    border-radius: 6px;
 }
 
 .icon-header {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	font-size: 19px;
-	text-transform: uppercase;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	margin: 6px 0;
-	color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 19px;
+    text-transform: uppercase;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 6px 0;
+    color: #fff;
 }
 
 .icon-header p {
@@ -92,6 +103,7 @@ CLOSE Icon
     font-size: 17px;
     font-family: tahoma;
     font-weight: 400;
+    color: var(--addColor);
 }
 
 .icon-header .fa {
@@ -111,9 +123,11 @@ CLOSE Icon
     max-width: 90%;
 }
 
+
 /*
 single close div
 */
+
 .single-close-div {
     margin: 10px 0;
     width: 100%;
@@ -121,11 +135,11 @@ single close div
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .single-close-div .fa {
@@ -137,27 +151,30 @@ single close div
 }
 
 .button .owner {
-	background: #332e2ef2;
-	padding: 6px 70px;
-	margin: 10px;
-	border: none;
-	font-size: 13px;
-	display: inline-block;
-	color: #fff;
-	font-family: Alifur;
-	text-decoration: none;
-	-webkit-transition: .4s;
-	transition: .4s;
-	border-radius: 6px;
+    background: var(--addColor);
+    padding: 6px 70px;
+    margin: 10px;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    color: #fff;
+    font-family: Alifur;
+    text-decoration: none;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 6px;
 }
+
 .button .owner:hover {
     opacity: .6;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 }
 
+
 /*
 custom color
 */
+
 #purple {
     color: purple;
 }
@@ -195,5 +212,5 @@ custom color
 }
 
 #yellow {
-    color: yellow;
+    color: #ffb400;
 }

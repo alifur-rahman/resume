@@ -16,123 +16,45 @@ $(document).ready(function() {
 
     //purple
     $("#purple").click(function() {
-        $(".add-color").css({
-            'color': "purple",
-        });
-        $(".add-bg-color").css({
-            'background-color': "purple",
-        });
-        $(".add-strk-color").css({
-            'stroke': "purple",
-        });
+        $(":root").css("--addColor", "purple");
 
     });
     //red
     $("#red").click(function() {
-        $(".add-color").css({
-            'color': "red",
-        });
-        $(".add-bg-color").css({
-            'background-color': "red",
-        });
-        $(".add-strk-color").css({
-            'stroke': "red",
-        });
+        $(":root").css("--addColor", "red");
+
     });
     //blueviolet
     $("#blueviolet").click(function() {
-        $(".add-color").css({
-            'color': "blueviolet",
-        });
-        $(".add-bg-color").css({
-            'background-color': "blueviolet",
-        });
-        $(".add-strk-color").css({
-            'stroke': "blueviolet",
-        });
+        $(":root").css("--addColor", "blueviolet");
     });
     //blue
     $("#blue").click(function() {
-        $(".add-color").css({
-            'color': "blue",
-        });
-        $(".add-bg-color").css({
-            'background-color': "blue",
-        });
-        $(".add-strk-color").css({
-            'stroke': "blue",
-        });
+        $(":root").css("--addColor", "blue");
     });
     //goldenrod
     $("#goldenrod").click(function() {
-        $(".add-color").css({
-            'color': "goldenrod",
-        });
-        $(".add-bg-color").css({
-            'background-color': "goldenrod",
-        });
-        $(".add-strk-color").css({
-            'stroke': "goldenrod",
-        });
+
+        $(":root").css("--addColor", "goldenrod");
     });
     //magenta
     $("#magenta").click(function() {
-        $(".add-color").css({
-            'color': "magenta",
-        });
-        $(".add-bg-color").css({
-            'background-color': "magenta",
-        });
-        $(".add-strk-color").css({
-            'stroke': "magenta",
-        });
+        $(":root").css("--addColor", "magenta");
     });
     //yellowgreen
     $("#yellowgreen").click(function() {
-        $(".add-color").css({
-            'color': "yellowgreen",
-        });
-        $(".add-bg-color").css({
-            'background-color': "yellowgreen",
-        });
-        $(".add-strk-color").css({
-            'stroke': "yellowgreen",
-        });
+        $(":root").css("--addColor", "yellowgreen");
     });
     //orange
     $("#orange").click(function() {
-        $(".add-color").css({
-            'color': "orange",
-        });
-        $(".add-bg-color").css({
-            'background-color': "orange",
-        });
-        $(".add-strk-color").css({
-            'stroke': "orange",
-        });
+        $(":root").css("--addColor", "orange");
     });
     //green
     $("#green").click(function() {
-        $(".add-color").css({
-            'color': "green",
-        });
-        $(".add-bg-color").css({
-            'background-color': "green",
-        });
-        $(".add-strk-color").css({
-            'stroke': "green",
-        });
+        $(":root").css("--addColor", "green");
     });
     //yellow
     $("#yellow").click(function() {
-        $(".add-color").css({
-            'color': "yellow",
-        });
-        $(".add-bg-color").css({
-            'background-color': "yellow",
-        });
-        $(".add-strk-color").css({
-            'stroke': "yellow",
-        });
+        $(":root").css("--addColor", "#ffb400");
     });
 });

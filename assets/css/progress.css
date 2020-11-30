@@ -27,7 +27,7 @@ svg.radial-progress text {
 }
 
 svg.radial-progress circle {
-    stroke: #FFB400;
+    stroke: var(--addColor);
 }
 
 svg.radial-progress text {

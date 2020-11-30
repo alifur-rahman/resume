@@ -38,7 +38,7 @@ $(document).ready(function() {
     $(function() {
 
         $('.portfolio_area').sliphover({
-            backgroundColor: '#FFB400',
+            backgroundColor: 'var(--addColor)',
             verticalMiddle: false,
 
         });
