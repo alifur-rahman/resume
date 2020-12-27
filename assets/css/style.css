@@ -169,6 +169,7 @@ button
     color: white;
     box-sizing: border-box;
     margin-left: 33.33%;
+    overflow-x: hidden;
 }
 
 .header_text_area h3 {
