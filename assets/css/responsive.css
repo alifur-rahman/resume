@@ -181,9 +181,9 @@
         line-height: 25px;
     }
 }
-@media all and (max-width:430px) {
+/* @media all and (max-width:430px) {
     .header_text_area {
         padding-top: 30rem;
     }
 
-}
+} */
