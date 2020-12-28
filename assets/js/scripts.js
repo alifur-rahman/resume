@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('.show-nav').click(function() {
         $('.responsive-menu').animate({
             'left': '0%',
-        }, 1500);
+        }, 500);
         $(this).css({
             'display': 'none',
         });
@@ -22,7 +22,7 @@ $(document).ready(function() {
     $('.close-nav').click(function() {
         $('.responsive-menu').animate({
             'left': '-100%',
-        }, 1500);
+        }, 500);
         $(this).css({
             'display': 'none',
         });

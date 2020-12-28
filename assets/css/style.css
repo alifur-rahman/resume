@@ -256,7 +256,7 @@ button
 
 .image_area {
     background: #040404;
-    background-image: url(../images/105.jpg);
+    background-image: url(../images/105.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -338,11 +338,7 @@ button
 
 
 /*===============================*/
-
-
 /* about area css  */
-
-
 /*===============================*/
 
 
@@ -664,11 +660,7 @@ button
 
 
 /*===============================*/
-
-
 /* Portfolio area css  */
-
-
 /*===============================*/
 
 .Main_portfolio_area {
@@ -697,11 +689,7 @@ button
 
 
 /*===============================*/
-
-
 /* contact area css  */
-
-
 /*===============================*/
 
 .social_link_area h3 {
@@ -776,7 +764,6 @@ button
     border-radius: 30px;
     outline: none !important;
     transition: .3s;
-    text-transform: uppercase;
 }
 
 .contactform textarea {
@@ -800,11 +787,7 @@ button
 
 
 /*===============================*/
-
-
 /* blog post area css  */
-
-
 /*===============================*/
 
 .blog_post_area {
@@ -866,4 +849,34 @@ button
 
 .pagination_area .social_link ul {
     justify-content: center;
+}
+/*===============================*/
+/* Single blog post area css  */
+/*===============================*/
+.section_med{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.meta_tag {
+	font-size: 1.3rem;
+	color: #eee;
+}
+.meta_tag span {
+	margin-right: 15px;
+}
+.meta_tag span i {
+	color: var(--addColor);
+	padding-right: 0.4rem;
+}
+.heading_area h1 {
+	font-weight: 600;
+	font-size: 3.5rem;
+	text-transform: capitalize;
+	margin: 1.3rem 0 2rem;
+}
+.blog_image img {
+	border-radius: .6rem;
+}
+.blog_content {
+	padding: 2rem 0 4rem;
 }
