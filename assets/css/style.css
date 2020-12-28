@@ -524,7 +524,7 @@ button
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    background: #000 url(../images/105.jpg) no-repeat scroll 0 0 / cover;
+    background: #000 url(../images/105.png) no-repeat scroll 0 0 / cover;
     margin: auto;
     border: 4px solid #252525;
 }
