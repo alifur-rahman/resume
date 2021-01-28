@@ -675,10 +675,7 @@ button
     display: inline-block;
     border-radius: 10px;
 }
-.single_portfolio img {
-	border-radius: 10px;
-	overflow: hidden;
-}
+
 
 
 
