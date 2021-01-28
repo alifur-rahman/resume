@@ -675,28 +675,12 @@ button
     display: inline-block;
     border-radius: 10px;
 }
+.single_portfolio img {
+	border-radius: 10px;
+	overflow: hidden;
+}
 
-/* modifing plugins css  */
-/* 
-.sliphover-container {
-    border-radius: 10px;
-}
-.portfolio_area.grid-wrap {
-	max-width: 100%;
-}
-.grid li {
-	width: 33.33%;
-	float: left;
-	cursor: pointer;
-	box-sizing: border-box;
-	padding: 1rem;
-}
-.slideshow {
-	z-index: 9999;
-}
-.slideshow span i {
-	color: #fff;
-} */
+
 
 /*===============================*/
 /* contact area css  */
