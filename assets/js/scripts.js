@@ -40,10 +40,12 @@ $(document).ready(function() {
         $('.portfolio_area').sliphover({
             backgroundColor: 'var(--addColor)',
             verticalMiddle: false,
-
         });
     })
 
+
+    // $('.sliphover-overlay').addClass('overlay');
+   
 
 
 

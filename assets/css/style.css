@@ -664,18 +664,11 @@ button
 /*===============================*/
 
 .Main_portfolio_area {
-    background: #111111;
+	background: #111111;
+	padding-bottom: 4rem;
 }
 
-.portfolio_area {
-    column-count: 3;
-}
-
-.single_portfolio {
-    margin-bottom: 1.5rem;
-}
-
-.single_portfolio ul li a img {
+.single_portfolio img {
     width: 100%;
     height: 225px;
     object-fit: cover;
@@ -683,10 +676,27 @@ button
     border-radius: 10px;
 }
 
+/* modifing plugins css  */
+/* 
 .sliphover-container {
     border-radius: 10px;
 }
-
+.portfolio_area.grid-wrap {
+	max-width: 100%;
+}
+.grid li {
+	width: 33.33%;
+	float: left;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding: 1rem;
+}
+.slideshow {
+	z-index: 9999;
+}
+.slideshow span i {
+	color: #fff;
+} */
 
 /*===============================*/
 /* contact area css  */
@@ -880,3 +890,10 @@ button
 .blog_content {
 	padding: 2rem 0 4rem;
 }
+
+
+
+
+
+
+
