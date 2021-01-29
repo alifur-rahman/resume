@@ -23,6 +23,7 @@
 .grid-gallery figure img {
 	display: block;
 	width: 100%;
+	border-radius: 10px !important;
 }
 
 .grid-gallery figcaption h3 {
@@ -75,7 +76,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	z-index: 99999;
+	z-index: 9999;
 	opacity: 0;
 	visibility: hidden;
 	overflow: hidden;
@@ -148,7 +149,7 @@
 
 .slideshow figure {
 	width: 100%;
-	height: 100%;
+	/* height: 100%; */
 	background: #444;
 	border: 50px solid #444;
 	overflow: hidden;

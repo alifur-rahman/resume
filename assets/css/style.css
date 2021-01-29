@@ -676,6 +676,39 @@ button
     border-radius: 10px;
 }
 
+/* gridGallery overRight css  */
+.slideshow figure {
+	width: 100%;
+	height: auto;
+	background: #252525;
+	border: none;
+	overflow: hidden;
+	padding: 30px;
+	border-radius: 15px;
+}
+.slideshow figure img {
+	border-radius: 10px;
+}
+.slideshow figcaption h3 {
+	font-weight: 300;
+	font-size: 32px;
+	text-align: center;
+	color: var(--addColor);
+	font-weight: 700;
+	padding: 15px 0 25px;
+}
+.slideshow figure i,
+.slideshow figure a {
+	color: var(--addColor);
+}
+.slideshow figure a {
+	text-decoration: underline;
+}
+.project-label {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
 
 
 
