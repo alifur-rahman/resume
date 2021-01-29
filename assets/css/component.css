@@ -276,6 +276,9 @@ span.nav-close:before {
 		margin: 0 auto;
 		max-width: 100%;
 	}
+	.slideshow li figure{
+		height: 100%;
+	}
 
 	.slideshow nav span,
 	.slideshow nav span.nav-close {
