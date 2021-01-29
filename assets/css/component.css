@@ -276,10 +276,32 @@ span.nav-close:before {
 		margin: 0 auto;
 		max-width: 100%;
 	}
-	.slideshow li figure{
+	.slideshow li figure {
 		height: 100%;
+		padding-top: 60px;
+		transition: .4s;
 	}
-
+	.slideshow nav span {
+		position: initial;
+		z-index: 1000;
+		/* color: #59656c; */
+		/* text-align: center; */
+		/* padding: 3%; */
+		cursor: pointer;
+		font-size: 2.2em;
+	}
+	.slideshow nav {
+		position: fixed;
+		top: 0;
+		left: 0%;
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid gray;
+		padding: 6px;
+		transition: .5s;
+		background: #131313;
+	}
+	
 	.slideshow nav span {
 		position: none;
 	}
